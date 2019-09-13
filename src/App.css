@@ -19,6 +19,7 @@ html {
 
 .search-bar input {
   width: 100%;
+  text-align: center;
 }
 
 .search-bar button {
