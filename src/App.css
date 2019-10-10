@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 html {
   --search-bar-width: 400px;
   --search-bar-height: 40px;
@@ -6,6 +8,12 @@ html {
   --search-result-height: 33vh;
   --search-result-padding: 20px;
   --search-result-margin: 10px;
+}
+
+body {
+  background-color: rgba(0,239,231,0.3);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.0625rem;
 }
 
 .search-bar {
@@ -35,7 +43,8 @@ html {
 }
 
 em {
-  background-color: #c9daea;
+  text-decoration: underline;
+  font-weight: 900;
 }
 
 li {
@@ -44,8 +53,10 @@ li {
   width: calc(var(--search-result-width) - 2 * var(--search-result-padding) - 2 * var(--search-result-margin));
   height: calc(var(--search-result-height) - 2 * var(--search-result-padding) - 2 * var(--search-result-margin));
   overflow: hidden;
-  border: 1px solid grey;
+  background-image: linear-gradient(to bottom right, rgba(255,131,0,0.8), rgba(254, 1, 154, 0.8));
+  box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  color: white;
 }
 
 li:nth-of-type(5) {
@@ -81,12 +92,13 @@ li:nth-of-type(5) {
 }
 
 #modal-content {
-  background-color: white;
+  background-image: linear-gradient(to bottom right, rgba(255,131,0,1), rgba(254, 1, 154, 1));
+  color: white;
   max-width: 800px;
   overflow-y: scroll;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 25px;
   box-sizing: content-box;
   border-radius: 10px;
 }
