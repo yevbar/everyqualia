@@ -28,6 +28,16 @@ body {
 .search-bar input {
   width: 100%;
   text-align: center;
+  border: none;
+  background: transparent;
+}
+
+.search-bar input::placeholder {
+  color: rgba(64,64,64,0.75);
+}
+
+.search-bar input:focus {
+  outline: none;
 }
 
 .search-bar button {

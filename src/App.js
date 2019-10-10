@@ -56,7 +56,7 @@ class App extends Component {
         <InstantSearch indexName="reports" searchClient={searchClient}>
           <Configure hitsPerPage={8} />
           <div className="search-bar">
-            <SearchBox translations={{ placeholder: "Explore" }} />
+            <SearchBox translations={{ placeholder: "Explore..." }} />
           </div>
           <div className="search-results">
             <Hits hitComponent={Hit} />
