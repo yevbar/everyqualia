@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
 html {
   --search-bar-width: 400px;
@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: rgba(0,239,231,0.3);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 1.0625rem;
 }
 
